@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense calculator</title>
+
+    <style>
+      section {
+        width: 50%;
+        margin: 0 auto;
+      }
+      h3 {
+        font-size: 2rem;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      #list-container {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="main-container">
+        <h3>Total Expense : <span id="total-amount">0</span></h3>
+        <input id="input-text" type="text" />
+        <input id="input-number" type="number" />
+        <button id="calculate-btn">Calculate</button>
+
+      <!-- <div id="list-container">
+        <p>Fruits :</p>
+        <p>1000</p>
+      </div> -->
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
